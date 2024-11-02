@@ -14,17 +14,17 @@
 
     <form>
         <div class="Name">
-            <label for="">ชื่อจริง:</label>
-            <input type="text">&nbsp;&nbsp;
+            <label for="">* ชื่อจริง:</label>
+            <input type="text" required>&nbsp;&nbsp;
 
-            <label for="">นามสกุล: </label>
-            <input type="text"> <br><br>
+            <label for="">* นามสกุล: </label>
+            <input type="text" required> <br><br>
 
-            <label for="">First Name:</label>
-            <input type="text">&nbsp;&nbsp;
+            <label for="">* First Name:</label>
+            <input type="text" required>&nbsp;&nbsp;
 
-            <label for="">Last Name: </label>
-            <input type="text"> <br><br>
+            <label for="">* Last Name: </label>
+            <input type="text" required> <br><br>
         </div>
 
         <div class="gender">
@@ -37,8 +37,8 @@
         </div> <br>
 
         <div class="Number-Student">
-            <label for="">รหัสนักศึกษา: </label>
-            <input type="number"> <br><br>
+            <label for="">* รหัสนักศึกษา: </label>
+            <input type="number" required> <br><br>
 
         </div>
 
@@ -55,8 +55,8 @@
         </div>
 
         <div class="Email">
-            <label for="">Email: </label>
-            <input type="email"> <br><br>
+            <label for="">* Email: </label>
+            <input type="email" required> <br><br>
         </div>
 
         <div class="Birthday">
@@ -67,6 +67,7 @@
         <div class="type-book">
             <label for="">ประเภทของหนังสือที่สนใจ: </label>
             <select name="" id="">
+                <option value=""></option>
                 <option value="">สยองขวัญ</option>
                 <option value="">วืทยาศาสตร์</option>
                 <option value="">การ์ตูน</option>
@@ -79,6 +80,10 @@
         <div class="News">
             <label for="">ต้องการที่จะรับข่าวสารของห้องสมุดทางEmail: </label>
             <input type="checkbox"> <br><br>
+        </div>
+
+        <div class="Submit">
+            <input type="submit">
         </div>
 
 
